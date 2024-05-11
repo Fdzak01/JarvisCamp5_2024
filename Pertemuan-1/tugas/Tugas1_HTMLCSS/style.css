@@ -1,0 +1,33 @@
+.navbar{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.navbar ol{
+    list-style-type: none;
+    list-style: none;
+    float: left;
+}
+
+.navbar ol li{
+    float: left;
+}
+
+.navbar ol li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-right:  18px;;
+}
+
+#login{
+    padding: 15px 20px;
+    float: right;
+    text-align: center;
+}
+
+#login a{
+    text-decoration: none;
+}
