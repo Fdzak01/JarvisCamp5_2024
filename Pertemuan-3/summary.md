@@ -1,0 +1,1 @@
+Materi yang dipelajari pada pertemuan ini ialah penggunaan function , cara membuat function baik function aritmatika , membuat array dan sebagainya
