@@ -29,7 +29,7 @@
         }
     </style>
 </head>
-<body>
+<body>E
     <h1>INFORMASI PRODUK</h1>
     <table>
         <tr>

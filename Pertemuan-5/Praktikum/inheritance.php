@@ -5,10 +5,10 @@ class Buah {
     public $warna;
     public $rasa;
 
-    public function __construct($nama,$warna,$rasa){
-        $this->nama =$nama;
-        $this->warna =$warna;
-        $this->rasa =$rasa;
+    public function __construct($nama, $warna, $rasa){
+        $this->nama = $nama;
+        $this->warna = $warna;
+        $this->rasa = $rasa;
     }
 
     public function jatuh(){
@@ -16,16 +16,22 @@ class Buah {
     }
 }
 
-class Jeruk extends Buah{
+class Jeruk extends Buah {
 
     public $jenis;
-    public function __construct($nama, $warna, $rasa){
-        parent:: __construct("Jeruk", $warna, $rasa);
+
+    public function __construct($nama, $warna, $rasa, $jenis){
+        parent::__construct($nama, $warna, $rasa);
         $this->jenis = $jenis;
     }
 
     public function printjenis(){
-        echo "ini adalah jeruk $this->jenis dengan warna $this->warna this->rasa n\";
+        echo "Ini adalah jeruk $this->jenis dengan warna $this->warna dan rasa $this->rasa \n";
     }
-
 }
+
+// Example usage
+$jeruk = new Jeruk("Jeruk", "Oranye", "Manis", "Sunkist");
+$jeruk->printjenis();
+$jeruk->jatuh();
+?>
