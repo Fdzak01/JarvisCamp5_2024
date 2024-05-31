@@ -11,7 +11,7 @@ class DescController extends Controller
     public function index(){
         $descs = Desc::getALL();
 
-        return view("desc", [
+        return view("desc.index", [
             'descs' => $descs,
         ]);
     }
